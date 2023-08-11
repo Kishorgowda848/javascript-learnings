@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Both file Have same content:- in Script 
+        let x = 90;
+        console.log(x);
+    
+        <script src="./file1.js"></script>
+        <script src="./file2.js"></script>
+
+        output:-
+        90
+        Uncaught SyntaxError: Identifier 'x' has already been declared (at file2.js:1:1)
+
+
+        Solution 1:-
+            Inside The File
+            It will create a seperate scope;
+            (function(){
+                Your code goes here
+            )();
+
+
+        Solution 2:-
+            <script type="module" src="./file1.js"></script>
+            <script type="module" src="./file2.js"></script>
+            
+    -->
+    <script  src="./file1.js"></script>
+    <script  src="./file2.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.list-items {
+  list-style-type: none;
+  display: flex;
+}
+ul > li {
+  padding-left: 5px;
+}
+img {
+  width: 100px;
+  height: 70px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  margin: 5px
+}

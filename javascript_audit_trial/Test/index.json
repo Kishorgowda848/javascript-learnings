@@ -1,0 +1,22 @@
+[{
+    "bookName":"JAVA",
+    "costPrice":100.00,
+    "sellingPrice":150.00,
+    "productCode":"CD-JAVA-001",
+    "onHandInventory":300
+    },
+    {
+    "bookName":"React Native",
+    "costPrice":300.00,
+    "sellingPrice":500.00,
+    "productCode":"CD-React-Native-002",
+    "onHandInventory":10
+    },
+    {
+    "bookName":"A",
+    "costPrice":200.00,
+    "sellingPrice":300.00,
+    "productCode":"CD-A-002",
+    "onHandInventory":250
+    }
+]
